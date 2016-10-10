@@ -1,0 +1,11 @@
+bin\Debug\AccessReport.exe
+bin\Debug\AccessReport.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\AccessReport.rptAccess.rdlc
+obj\Debug\AccessReport.Form1.resources
+obj\Debug\AccessReport.Properties.Resources.resources
+obj\Debug\AccessReport.csproj.GenerateResource.Cache
+obj\Debug\RdlCompile.cache
+obj\Debug\RdlCompile.compiled
+obj\Debug\AccessReport.exe
+obj\Debug\AccessReport.pdb

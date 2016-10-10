@@ -1,0 +1,7 @@
+bin\Debug\RSWindowsService101.exe
+bin\Debug\RSWindowsService101.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\RSWindowsService101.exe
+obj\Debug\RSWindowsService101.pdb
+obj\Debug\RSWindowsService101.ProjectInstaller.resources
+obj\Debug\RSWindowsService101.csproj.GenerateResource.Cache

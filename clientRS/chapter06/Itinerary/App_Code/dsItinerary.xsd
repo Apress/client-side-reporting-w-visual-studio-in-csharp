@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsItinerary" targetNamespace="http://tempuri.org/dsItinerary.xsd" xmlns:mstns="http://tempuri.org/dsItinerary.xsd" xmlns="http://tempuri.org/dsItinerary.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsItinerary" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsItinerary" msprop:Generator_DataSetName="dsItinerary">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtItinerary" msprop:Generator_UserTableName="dtItinerary" msprop:Generator_RowDeletedName="dtItineraryRowDeleted" msprop:Generator_TableClassName="dtItineraryDataTable" msprop:Generator_RowChangedName="dtItineraryRowChanged" msprop:Generator_RowClassName="dtItineraryRow" msprop:Generator_RowChangingName="dtItineraryRowChanging" msprop:Generator_RowEvArgName="dtItineraryRowChangeEvent" msprop:Generator_RowEvHandlerName="dtItineraryRowChangeEventHandler" msprop:Generator_TablePropName="dtItinerary" msprop:Generator_TableVarName="tabledtItinerary" msprop:Generator_RowDeletingName="dtItineraryRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReservationCode" msprop:Generator_UserColumnName="ReservationCode" msprop:Generator_ColumnPropNameInRow="ReservationCode" msprop:Generator_ColumnVarNameInTable="columnReservationCode" msprop:Generator_ColumnPropNameInTable="ReservationCodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CustomerName" msprop:Generator_UserColumnName="CustomerName" msprop:Generator_ColumnPropNameInRow="CustomerName" msprop:Generator_ColumnVarNameInTable="columnCustomerName" msprop:Generator_ColumnPropNameInTable="CustomerNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DateOfTravel" msprop:Generator_UserColumnName="DateOfTravel" msprop:Generator_ColumnPropNameInRow="DateOfTravel" msprop:Generator_ColumnVarNameInTable="columnDateOfTravel" msprop:Generator_ColumnPropNameInTable="DateOfTravelColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Airline" msprop:Generator_UserColumnName="Airline" msprop:Generator_ColumnPropNameInRow="Airline" msprop:Generator_ColumnVarNameInTable="columnAirline" msprop:Generator_ColumnPropNameInTable="AirlineColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TravelFrom" msprop:Generator_UserColumnName="TravelFrom" msprop:Generator_ColumnPropNameInRow="TravelFrom" msprop:Generator_ColumnVarNameInTable="columnTravelFrom" msprop:Generator_ColumnPropNameInTable="TravelFromColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TravelTo" msprop:Generator_UserColumnName="TravelTo" msprop:Generator_ColumnPropNameInRow="TravelTo" msprop:Generator_ColumnVarNameInTable="columnTravelTo" msprop:Generator_ColumnPropNameInTable="TravelToColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DepartsTime" msprop:Generator_UserColumnName="DepartsTime" msprop:Generator_ColumnPropNameInRow="DepartsTime" msprop:Generator_ColumnVarNameInTable="columnDepartsTime" msprop:Generator_ColumnPropNameInTable="DepartsTimeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ArrivesTime" msprop:Generator_UserColumnName="ArrivesTime" msprop:Generator_ColumnPropNameInRow="ArrivesTime" msprop:Generator_ColumnVarNameInTable="columnArrivesTime" msprop:Generator_ColumnPropNameInTable="ArrivesTimeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DepartureTerminal" msdata:Caption="DepartureTermina" msprop:Generator_UserColumnName="DepartureTerminal" msprop:Generator_ColumnPropNameInRow="DepartureTerminal" msprop:Generator_ColumnVarNameInTable="columnDepartureTerminal" msprop:Generator_ColumnPropNameInTable="DepartureTerminalColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ArrivalTerminal" msprop:Generator_UserColumnName="ArrivalTerminal" msprop:Generator_ColumnPropNameInRow="ArrivalTerminal" msprop:Generator_ColumnVarNameInTable="columnArrivalTerminal" msprop:Generator_ColumnPropNameInTable="ArrivalTerminalColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Seats" msprop:Generator_UserColumnName="Seats" msprop:Generator_ColumnPropNameInRow="Seats" msprop:Generator_ColumnVarNameInTable="columnSeats" msprop:Generator_ColumnPropNameInTable="SeatsColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GateInfo" msprop:Generator_UserColumnName="GateInfo" msprop:Generator_ColumnPropNameInRow="GateInfo" msprop:Generator_ColumnVarNameInTable="columnGateInfo" msprop:Generator_ColumnPropNameInTable="GateInfoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Aircraft" msprop:Generator_UserColumnName="Aircraft" msprop:Generator_ColumnPropNameInRow="Aircraft" msprop:Generator_ColumnVarNameInTable="columnAircraft" msprop:Generator_ColumnPropNameInTable="AircraftColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Meal" msprop:Generator_UserColumnName="Meal" msprop:Generator_ColumnPropNameInRow="Meal" msprop:Generator_ColumnVarNameInTable="columnMeal" msprop:Generator_ColumnPropNameInTable="MealColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Smoking" msprop:Generator_UserColumnName="Smoking" msprop:Generator_ColumnPropNameInRow="Smoking" msprop:Generator_ColumnVarNameInTable="columnSmoking" msprop:Generator_ColumnPropNameInTable="SmokingColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Duration" msprop:Generator_UserColumnName="Duration" msprop:Generator_ColumnPropNameInRow="Duration" msprop:Generator_ColumnVarNameInTable="columnDuration" msprop:Generator_ColumnPropNameInTable="DurationColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Class" msprop:Generator_UserColumnName="Class" msprop:Generator_ColumnPropNameInRow="Class" msprop:Generator_ColumnVarNameInTable="columnClass" msprop:Generator_ColumnPropNameInTable="ClassColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInTable="StatusColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AirlineConfirmation" msprop:Generator_UserColumnName="AirlineConfirmation" msprop:Generator_ColumnPropNameInRow="AirlineConfirmation" msprop:Generator_ColumnVarNameInTable="columnAirlineConfirmation" msprop:Generator_ColumnPropNameInTable="AirlineConfirmationColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mileage" msprop:Generator_UserColumnName="Mileage" msprop:Generator_ColumnPropNameInRow="Mileage" msprop:Generator_ColumnVarNameInTable="columnMileage" msprop:Generator_ColumnPropNameInTable="MileageColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FrequentFlyerCode" msprop:Generator_UserColumnName="FrequentFlyerCode" msprop:Generator_ColumnPropNameInRow="FrequentFlyerCode" msprop:Generator_ColumnVarNameInTable="columnFrequentFlyerCode" msprop:Generator_ColumnPropNameInTable="FrequentFlyerCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Notes" msprop:Generator_UserColumnName="Notes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_ColumnPropNameInTable="NotesColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtItinerary" />
+      <xs:field xpath="mstns:ReservationCode" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

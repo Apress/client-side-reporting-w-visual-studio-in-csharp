@@ -1,0 +1,12 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Barcode.rptBarcode.rdlc
+obj\Debug\Barcode.Form1.resources
+obj\Debug\Barcode.Properties.Resources.resources
+obj\Debug\Barcode.csproj.GenerateResource.Cache
+obj\Debug\RdlCompile.cache
+obj\Debug\RdlCompile.compiled
+bin\Debug\Barcode.exe.config
+bin\Debug\Barcode.exe
+bin\Debug\Barcode.pdb
+obj\Debug\Barcode.exe
+obj\Debug\Barcode.pdb

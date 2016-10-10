@@ -1,0 +1,8 @@
+bin\Debug\VendorPO.exe
+bin\Debug\VendorPO.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VendorPO.rptVendorPO.rdlc
+obj\Debug\RdlCompile.cache
+obj\Debug\RdlCompile.compiled
+obj\Debug\VendorPO.exe
+obj\Debug\VendorPO.pdb

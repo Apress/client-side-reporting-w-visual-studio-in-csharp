@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <ConnectionProperties>
+        <ConnectString />
+        <DataProvider>SQL</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>658ba601-b2cb-4147-ab5c-4b9e2b1bfac6</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <BottomMargin>1in</BottomMargin>
+  <RightMargin>0.5in</RightMargin>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:GridSpacing>0.075in</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ReportItems>
+      <Rectangle Name="rectangle2">
+        <Left>0.15in</Left>
+        <ReportItems>
+          <Textbox Name="textbox15">
+            <Left>0.15in</Left>
+            <Top>3.075in</Top>
+            <ZIndex>36</ZIndex>
+            <Width>6.375in</Width>
+            <Style>
+              <BorderStyle>
+                <Bottom>Solid</Bottom>
+                <Top>Solid</Top>
+              </BorderStyle>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>="Notes: " &amp; Fields!Notes.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox33">
+            <Left>4.8in</Left>
+            <Top>2.475in</Top>
+            <ZIndex>35</ZIndex>
+            <Width>1.725in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!FrequentFlyerCode.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox34">
+            <Left>4.8in</Left>
+            <Top>2.175in</Top>
+            <ZIndex>34</ZIndex>
+            <Width>1.725in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!Mileage.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox35">
+            <Left>4.8in</Left>
+            <Top>1.875in</Top>
+            <ZIndex>33</ZIndex>
+            <Width>1.725in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!AirlineConfirmation.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox36">
+            <Left>4.8in</Left>
+            <Top>1.575in</Top>
+            <ZIndex>32</ZIndex>
+            <Width>1.725in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!Status.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox37">
+            <Left>4.8in</Left>
+            <Top>1.275in</Top>
+            <ZIndex>31</ZIndex>
+            <Width>1.725in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!Class.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox38">
+            <Left>4.8in</Left>
+            <Top>0.975in</Top>
+            <ZIndex>30</ZIndex>
+            <Width>1.725in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!Duration.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox39">
+            <Left>4.8in</Left>
+            <Top>0.675in</Top>
+            <ZIndex>29</ZIndex>
+            <Width>1.725in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!ArrivesTime.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox40">
+            <Left>4.8in</Left>
+            <Top>0.375in</Top>
+            <ZIndex>28</ZIndex>
+            <Width>1.725in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!DepartsTime.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox32">
+            <Left>1.575in</Left>
+            <Top>2.775in</Top>
+            <ZIndex>27</ZIndex>
+            <Width>1.875in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!Smoking.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox28">
+            <Left>1.575in</Left>
+            <Top>2.475in</Top>
+            <ZIndex>26</ZIndex>
+            <Width>1.875in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!Meal.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox29">
+            <Left>1.575in</Left>
+            <Top>2.175in</Top>
+            <ZIndex>25</ZIndex>
+            <Width>1.875in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!Aircraft.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox30">
+            <Left>1.575in</Left>
+            <Top>1.875in</Top>
+            <ZIndex>24</ZIndex>
+            <Width>1.875in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!GateInfo.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox31">
+            <Left>1.575in</Left>
+            <Top>1.575in</Top>
+            <ZIndex>23</ZIndex>
+            <Width>1.875in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!Seats.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox26">
+            <Left>1.575in</Left>
+            <Top>1.275in</Top>
+            <ZIndex>22</ZIndex>
+            <Width>1.875in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!ArrivalTerminal.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox27">
+            <Left>1.575in</Left>
+            <Top>0.975in</Top>
+            <ZIndex>21</ZIndex>
+            <Width>1.875in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!DepartureTerminal.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox25">
+            <Left>1.575in</Left>
+            <Top>0.675in</Top>
+            <ZIndex>20</ZIndex>
+            <Width>1.875in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!TravelTo.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox16">
+            <Left>3.6in</Left>
+            <Top>2.775in</Top>
+            <ZIndex>19</ZIndex>
+            <Width>2.925in</Width>
+            <Style>
+              <TextAlign>Left</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <FontStyle>Italic</FontStyle>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>* Please verify flight times prior to departure</Value>
+          </Textbox>
+          <Textbox Name="textbox17">
+            <Left>3.6in</Left>
+            <Top>2.475in</Top>
+            <ZIndex>18</ZIndex>
+            <Width>1.125in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Frequent Flyer #:</Value>
+          </Textbox>
+          <Textbox Name="textbox18">
+            <Left>3.6in</Left>
+            <Top>2.175in</Top>
+            <ZIndex>17</ZIndex>
+            <Width>1.125in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Mileage:</Value>
+          </Textbox>
+          <Textbox Name="textbox19">
+            <Left>3.6in</Left>
+            <Top>1.875in</Top>
+            <ZIndex>16</ZIndex>
+            <Width>1.125in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Confirmation #:</Value>
+          </Textbox>
+          <Textbox Name="textbox20">
+            <Left>3.6in</Left>
+            <Top>1.575in</Top>
+            <ZIndex>15</ZIndex>
+            <Width>1.125in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Status:</Value>
+          </Textbox>
+          <Textbox Name="textbox21">
+            <Left>3.6in</Left>
+            <Top>1.275in</Top>
+            <ZIndex>14</ZIndex>
+            <Width>1.125in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Class:</Value>
+          </Textbox>
+          <Textbox Name="textbox22">
+            <Left>3.6in</Left>
+            <Top>0.975in</Top>
+            <ZIndex>13</ZIndex>
+            <Width>1.125in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Duration:</Value>
+          </Textbox>
+          <Textbox Name="textbox23">
+            <Left>3.6in</Left>
+            <Top>0.675in</Top>
+            <ZIndex>12</ZIndex>
+            <Width>1.125in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Arrives:</Value>
+          </Textbox>
+          <Textbox Name="textbox24">
+            <Left>3.6in</Left>
+            <Top>0.375in</Top>
+            <ZIndex>11</ZIndex>
+            <Width>1.125in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Departs:</Value>
+          </Textbox>
+          <Textbox Name="TravelFrom">
+            <Left>1.575in</Left>
+            <Top>0.375in</Top>
+            <rd:DefaultName>TravelFrom</rd:DefaultName>
+            <ZIndex>10</ZIndex>
+            <Width>1.875in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=First(Fields!TravelFrom.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox14">
+            <Left>0.15in</Left>
+            <Top>2.775in</Top>
+            <ZIndex>9</ZIndex>
+            <Width>1.35in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Smoking:</Value>
+          </Textbox>
+          <Textbox Name="textbox13">
+            <Left>0.15in</Left>
+            <Top>2.475in</Top>
+            <ZIndex>8</ZIndex>
+            <Width>1.35in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Meal:</Value>
+          </Textbox>
+          <Textbox Name="textbox12">
+            <Left>0.15in</Left>
+            <Top>2.175in</Top>
+            <ZIndex>7</ZIndex>
+            <Width>1.35in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Aircraft:</Value>
+          </Textbox>
+          <Textbox Name="textbox11">
+            <Left>0.15in</Left>
+            <Top>1.875in</Top>
+            <ZIndex>6</ZIndex>
+            <Width>1.35in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Gate:</Value>
+          </Textbox>
+          <Textbox Name="textbox10">
+            <Left>0.15in</Left>
+            <Top>1.575in</Top>
+            <ZIndex>5</ZIndex>
+            <Width>1.35in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Seat(s):</Value>
+          </Textbox>
+          <Textbox Name="textbox9">
+            <Left>0.15in</Left>
+            <Top>1.275in</Top>
+            <ZIndex>4</ZIndex>
+            <Width>1.35in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Arrival Terminal:</Value>
+          </Textbox>
+          <Textbox Name="textbox8">
+            <Left>0.15in</Left>
+            <Top>0.975in</Top>
+            <ZIndex>3</ZIndex>
+            <Width>1.35in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Departure Terminal:</Value>
+          </Textbox>
+          <Textbox Name="textbox7">
+            <Left>0.15in</Left>
+            <Top>0.675in</Top>
+            <ZIndex>2</ZIndex>
+            <Width>1.35in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>To:</Value>
+          </Textbox>
+          <Textbox Name="textbox5">
+            <Left>0.15in</Left>
+            <Top>0.375in</Top>
+            <rd:DefaultName>textbox5</rd:DefaultName>
+            <ZIndex>1</ZIndex>
+            <Width>1.35in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>From:</Value>
+          </Textbox>
+          <Textbox Name="textbox6">
+            <Left>0.15in</Left>
+            <Top>0.075in</Top>
+            <rd:DefaultName>textbox6</rd:DefaultName>
+            <Width>6.375in</Width>
+            <Style>
+              <BorderStyle>
+                <Bottom>Solid</Bottom>
+                <Top>Solid</Top>
+              </BorderStyle>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=Fields!DateOfTravel.Value &amp; " : " &amp; Fields!Airline.Value</Value>
+          </Textbox>
+        </ReportItems>
+        <Top>1.725in</Top>
+        <ZIndex>1</ZIndex>
+        <Width>6.675in</Width>
+        <Height>3.375in</Height>
+      </Rectangle>
+      <Rectangle Name="rectangle1">
+        <Left>0.15in</Left>
+        <ReportItems>
+          <Textbox Name="textbox4">
+            <Left>3.3in</Left>
+            <Top>1.2in</Top>
+            <ZIndex>4</ZIndex>
+            <Width>3.3in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>="Reservation code:" &amp; Fields!ReservationCode.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox3">
+            <Left>3.3in</Left>
+            <Top>0.9in</Top>
+            <ZIndex>3</ZIndex>
+            <Width>3.3in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=Fields!CustomerName.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox2">
+            <Left>3.3in</Left>
+            <Top>0.525in</Top>
+            <rd:DefaultName>textbox2</rd:DefaultName>
+            <ZIndex>2</ZIndex>
+            <Width>1.125in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <FontSize>14pt</FontSize>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.325in</Height>
+            <Value>Itinerary for:</Value>
+          </Textbox>
+          <Textbox Name="textbox1">
+            <Left>3.3in</Left>
+            <Top>0.15in</Top>
+            <rd:DefaultName>textbox1</rd:DefaultName>
+            <ZIndex>1</ZIndex>
+            <Width>3.25in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <FontSize>14pt</FontSize>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.3in</Height>
+            <Value>HAPPY LANDINGS INC.</Value>
+          </Textbox>
+          <Image Name="image1">
+            <Sizing>AutoSize</Sizing>
+            <Left>0.15in</Left>
+            <MIMEType>image/gif</MIMEType>
+            <Top>0.15in</Top>
+            <Width>1.40625in</Width>
+            <Source>Embedded</Source>
+            <Style />
+            <Height>1.16667in</Height>
+            <Value>airline_logo</Value>
+          </Image>
+        </ReportItems>
+        <Top>0.075in</Top>
+        <Width>6.675in</Width>
+        <Height>1.5in</Height>
+      </Rectangle>
+    </ReportItems>
+    <Height>5.175in</Height>
+  </Body>
+  <rd:ReportID>8a3cbf63-77ea-4478-ade7-b7440af4b0c5</rd:ReportID>
+  <LeftMargin>0.5in</LeftMargin>
+  <EmbeddedImages>
+    <EmbeddedImage Name="airline_logo">
+      <ImageData>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</ImageData>
+      <MIMEType>image/gif</MIMEType>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <DataSets>
+    <DataSet Name="dsItinerary_dtItinerary">
+      <rd:DataSetInfo>
+        <rd:DataSetName>dsItinerary</rd:DataSetName>
+        <rd:TableName>dtItinerary</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText />
+        <DataSourceName>DummyDataSource</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="ReservationCode">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ReservationCode</DataField>
+        </Field>
+        <Field Name="CustomerName">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>CustomerName</DataField>
+        </Field>
+        <Field Name="DateOfTravel">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>DateOfTravel</DataField>
+        </Field>
+        <Field Name="Airline">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Airline</DataField>
+        </Field>
+        <Field Name="TravelFrom">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>TravelFrom</DataField>
+        </Field>
+        <Field Name="TravelTo">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>TravelTo</DataField>
+        </Field>
+        <Field Name="DepartsTime">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>DepartsTime</DataField>
+        </Field>
+        <Field Name="ArrivesTime">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ArrivesTime</DataField>
+        </Field>
+        <Field Name="DepartureTerminal">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>DepartureTerminal</DataField>
+        </Field>
+        <Field Name="ArrivalTerminal">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ArrivalTerminal</DataField>
+        </Field>
+        <Field Name="Seats">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Seats</DataField>
+        </Field>
+        <Field Name="GateInfo">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>GateInfo</DataField>
+        </Field>
+        <Field Name="Aircraft">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Aircraft</DataField>
+        </Field>
+        <Field Name="Meal">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Meal</DataField>
+        </Field>
+        <Field Name="Smoking">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Smoking</DataField>
+        </Field>
+        <Field Name="Duration">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Duration</DataField>
+        </Field>
+        <Field Name="Class">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Class</DataField>
+        </Field>
+        <Field Name="Status">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Status</DataField>
+        </Field>
+        <Field Name="AirlineConfirmation">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>AirlineConfirmation</DataField>
+        </Field>
+        <Field Name="Mileage">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Mileage</DataField>
+        </Field>
+        <Field Name="FrequentFlyerCode">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>FrequentFlyerCode</DataField>
+        </Field>
+        <Field Name="Notes">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Notes</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>6.975in</Width>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <Language>en-US</Language>
+  <TopMargin>1in</TopMargin>
+</Report>

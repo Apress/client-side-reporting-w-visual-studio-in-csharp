@@ -1,0 +1,11 @@
+bin\Debug\DivisionSales.exe
+bin\Debug\DivisionSales.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DivisionSales.rptDivisionSales.rdlc
+obj\Debug\DivisionSales.Form1.resources
+obj\Debug\DivisionSales.Properties.Resources.resources
+obj\Debug\Exercise3.csproj.GenerateResource.Cache
+obj\Debug\RdlCompile.cache
+obj\Debug\RdlCompile.compiled
+obj\Debug\DivisionSales.exe
+obj\Debug\DivisionSales.pdb

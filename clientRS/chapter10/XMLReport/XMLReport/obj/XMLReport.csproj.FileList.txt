@@ -1,0 +1,11 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\XMLReport.rptXML.rdlc
+obj\Debug\XMLReport.Form1.resources
+obj\Debug\XMLReport.Properties.Resources.resources
+obj\Debug\XMLReport.csproj.GenerateResource.Cache
+obj\Debug\RdlCompile.cache
+obj\Debug\RdlCompile.compiled
+bin\Debug\XMLReport.exe
+bin\Debug\XMLReport.pdb
+obj\Debug\XMLReport.exe
+obj\Debug\XMLReport.pdb

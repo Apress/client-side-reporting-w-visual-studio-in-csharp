@@ -1,0 +1,12 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\RSandCR.rptCR.rpt
+obj\Debug\RSandCR.rptRS.rdlc
+obj\Debug\RSandCR.Form1.resources
+obj\Debug\RSandCR.Properties.Resources.resources
+obj\Debug\RSandCR.csproj.GenerateResource.Cache
+obj\Debug\RdlCompile.cache
+obj\Debug\RdlCompile.compiled
+bin\Debug\RSandCR.exe
+bin\Debug\RSandCR.pdb
+obj\Debug\RSandCR.exe
+obj\Debug\RSandCR.pdb

@@ -1,0 +1,11 @@
+bin\Debug\AddressList.exe
+bin\Debug\AddressList.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\AddressList.rptAddressList.rdlc
+obj\Debug\AddressList.Form1.resources
+obj\Debug\AddressList.Properties.Resources.resources
+obj\Debug\Exercise2.csproj.GenerateResource.Cache
+obj\Debug\RdlCompile.cache
+obj\Debug\RdlCompile.compiled
+obj\Debug\AddressList.exe
+obj\Debug\AddressList.pdb

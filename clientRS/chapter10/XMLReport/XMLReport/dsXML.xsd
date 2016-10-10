@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsXML" targetNamespace="http://tempuri.org/dsXML.xsd" xmlns:mstns="http://tempuri.org/dsXML.xsd" xmlns="http://tempuri.org/dsXML.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsXML" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsXML" msprop:Generator_DataSetName="dsXML">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtXML" msprop:Generator_UserTableName="dtXML" msprop:Generator_RowDeletedName="dtXMLRowDeleted" msprop:Generator_TableClassName="dtXMLDataTable" msprop:Generator_RowChangedName="dtXMLRowChanged" msprop:Generator_RowClassName="dtXMLRow" msprop:Generator_RowChangingName="dtXMLRowChanging" msprop:Generator_RowEvArgName="dtXMLRowChangeEvent" msprop:Generator_RowEvHandlerName="dtXMLRowChangeEventHandler" msprop:Generator_TablePropName="dtXML" msprop:Generator_TableVarName="tabledtXML" msprop:Generator_RowDeletingName="dtXMLRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInTable="idColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="author" msprop:Generator_UserColumnName="author" msprop:Generator_ColumnPropNameInRow="author" msprop:Generator_ColumnVarNameInTable="columnauthor" msprop:Generator_ColumnPropNameInTable="authorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="title" msprop:Generator_UserColumnName="title" msprop:Generator_ColumnPropNameInRow="title" msprop:Generator_ColumnVarNameInTable="columntitle" msprop:Generator_ColumnPropNameInTable="titleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="genre" msprop:Generator_UserColumnName="genre" msprop:Generator_ColumnPropNameInRow="genre" msprop:Generator_ColumnVarNameInTable="columngenre" msprop:Generator_ColumnPropNameInTable="genreColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="price" msprop:Generator_UserColumnName="price" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnVarNameInTable="columnprice" msprop:Generator_ColumnPropNameInTable="priceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="publish_date" msprop:Generator_UserColumnName="publish_date" msprop:Generator_ColumnPropNameInRow="publish_date" msprop:Generator_ColumnVarNameInTable="columnpublish_date" msprop:Generator_ColumnPropNameInTable="publish_dateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="description" msprop:Generator_UserColumnName="description" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInTable="descriptionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

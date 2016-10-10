@@ -1,0 +1,11 @@
+bin\Debug\ProductReorder.exe
+bin\Debug\ProductReorder.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ProductReorder.rptProductReorder.rdlc
+obj\Debug\ProductReorder.Form1.resources
+obj\Debug\ProductReorder.Properties.Resources.resources
+obj\Debug\Exercise1.csproj.GenerateResource.Cache
+obj\Debug\RdlCompile.cache
+obj\Debug\RdlCompile.compiled
+obj\Debug\ProductReorder.exe
+obj\Debug\ProductReorder.pdb

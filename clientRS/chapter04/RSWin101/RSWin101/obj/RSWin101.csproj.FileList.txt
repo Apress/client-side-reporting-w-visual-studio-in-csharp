@@ -1,0 +1,8 @@
+bin\Debug\RSWin101.exe
+bin\Debug\RSWin101.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\RSWin101.Form1.resources
+obj\Debug\RSWin101.Properties.Resources.resources
+obj\Debug\RSWin101.csproj.GenerateResource.Cache
+obj\Debug\RSWin101.exe
+obj\Debug\RSWin101.pdb

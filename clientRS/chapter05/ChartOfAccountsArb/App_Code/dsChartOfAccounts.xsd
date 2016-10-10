@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsChartOfAccounts" targetNamespace="http://tempuri.org/dsChartOfAccounts.xsd" xmlns:mstns="http://tempuri.org/dsChartOfAccounts.xsd" xmlns="http://tempuri.org/dsChartOfAccounts.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsChartOfAccounts" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsChartOfAccounts" msprop:Generator_DataSetName="dsChartOfAccounts">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtChartOfAccounts" msprop:Generator_UserTableName="dtChartOfAccounts" msprop:Generator_RowDeletedName="dtChartOfAccountsRowDeleted" msprop:Generator_TableClassName="dtChartOfAccountsDataTable" msprop:Generator_RowChangedName="dtChartOfAccountsRowChanged" msprop:Generator_RowClassName="dtChartOfAccountsRow" msprop:Generator_RowChangingName="dtChartOfAccountsRowChanging" msprop:Generator_RowEvArgName="dtChartOfAccountsRowChangeEvent" msprop:Generator_RowEvHandlerName="dtChartOfAccountsRowChangeEventHandler" msprop:Generator_TablePropName="dtChartOfAccounts" msprop:Generator_TableVarName="tabledtChartOfAccounts" msprop:Generator_RowDeletingName="dtChartOfAccountsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AccountID" msprop:Generator_UserColumnName="AccountID" msprop:Generator_ColumnPropNameInRow="AccountID" msprop:Generator_ColumnVarNameInTable="columnAccountID" msprop:Generator_ColumnPropNameInTable="AccountIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AccountCode" msprop:Generator_UserColumnName="AccountCode" msprop:Generator_ColumnPropNameInRow="AccountCode" msprop:Generator_ColumnVarNameInTable="columnAccountCode" msprop:Generator_ColumnPropNameInTable="AccountCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountNameArb" msprop:Generator_UserColumnName="AccountNameArb" msprop:Generator_ColumnPropNameInRow="AccountNameArb" msprop:Generator_ColumnVarNameInTable="columnAccountNameArb" msprop:Generator_ColumnPropNameInTable="AccountNameArbColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountType" msprop:Generator_UserColumnName="AccountType" msprop:Generator_ColumnPropNameInRow="AccountType" msprop:Generator_ColumnVarNameInTable="columnAccountType" msprop:Generator_ColumnPropNameInTable="AccountTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountGroup" msprop:Generator_UserColumnName="AccountGroup" msprop:Generator_ColumnPropNameInRow="AccountGroup" msprop:Generator_ColumnVarNameInTable="columnAccountGroup" msprop:Generator_ColumnPropNameInTable="AccountGroupColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountGeneralID" msprop:Generator_UserColumnName="AccountGeneralID" msprop:Generator_ColumnPropNameInRow="AccountGeneralID" msprop:Generator_ColumnVarNameInTable="columnAccountGeneralID" msprop:Generator_ColumnPropNameInTable="AccountGeneralIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AccountGeneralCode" msprop:Generator_UserColumnName="AccountGeneralCode" msprop:Generator_ColumnPropNameInRow="AccountGeneralCode" msprop:Generator_ColumnVarNameInTable="columnAccountGeneralCode" msprop:Generator_ColumnPropNameInTable="AccountGeneralCodeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

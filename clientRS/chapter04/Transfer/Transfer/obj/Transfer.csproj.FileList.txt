@@ -1,0 +1,12 @@
+bin\Debug\Transfer.exe
+bin\Debug\Transfer.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Transfer.rptTransferDetails.rdlc
+obj\Debug\Transfer.Form1.resources
+obj\Debug\Transfer.Properties.Resources.resources
+obj\Debug\Transfer.csproj.GenerateResource.Cache
+obj\Debug\RdlCompile.cache
+obj\Debug\RdlCompile.compiled
+obj\Debug\Transfer.exe
+obj\Debug\Transfer.pdb
+obj\Debug\Transfer.rptTransferHeader.rdlc

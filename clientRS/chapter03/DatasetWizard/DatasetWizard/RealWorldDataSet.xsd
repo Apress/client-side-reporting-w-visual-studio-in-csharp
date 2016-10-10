@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RealWorldDataSet" targetNamespace="http://tempuri.org/RealWorldDataSet.xsd" xmlns:mstns="http://tempuri.org/RealWorldDataSet.xsd" xmlns="http://tempuri.org/RealWorldDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="RealWorldConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="RealWorldConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DatasetWizard.Properties.Settings.GlobalReference.Default.RealWorldConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RealWorldDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RealWorldDataSet" msprop:Generator_DataSetName="RealWorldDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BooksInfo" msprop:Generator_UserTableName="BooksInfo" msprop:Generator_RowDeletedName="BooksInfoRowDeleted" msprop:Generator_RowChangedName="BooksInfoRowChanged" msprop:Generator_RowClassName="BooksInfoRow" msprop:Generator_RowChangingName="BooksInfoRowChanging" msprop:Generator_RowEvArgName="BooksInfoRowChangeEvent" msprop:Generator_RowEvHandlerName="BooksInfoRowChangeEventHandler" msprop:Generator_TableClassName="BooksInfoDataTable" msprop:Generator_TableVarName="tableBooksInfo" msprop:Generator_RowDeletingName="BooksInfoRowDeleting" msprop:Generator_TablePropName="BooksInfo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BookTitle" msprop:Generator_UserColumnName="BookTitle" msprop:Generator_ColumnVarNameInTable="columnBookTitle" msprop:Generator_ColumnPropNameInRow="BookTitle" msprop:Generator_ColumnPropNameInTable="BookTitleColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AuthorLastName" msprop:Generator_UserColumnName="AuthorLastName" msprop:Generator_ColumnVarNameInTable="columnAuthorLastName" msprop:Generator_ColumnPropNameInRow="AuthorLastName" msprop:Generator_ColumnPropNameInTable="AuthorLastNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Price" msprop:Generator_UserColumnName="Price" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnPropNameInTable="PriceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YTDSales" msprop:Generator_UserColumnName="YTDSales" msprop:Generator_ColumnVarNameInTable="columnYTDSales" msprop:Generator_ColumnPropNameInRow="YTDSales" msprop:Generator_ColumnPropNameInTable="YTDSalesColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

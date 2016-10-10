@@ -1,0 +1,8 @@
+bin\Debug\WinServerSide.exe
+bin\Debug\WinServerSide.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WinServerSide.Form1.resources
+obj\Debug\WinServerSide.Properties.Resources.resources
+obj\Debug\WinServerSide.csproj.GenerateResource.Cache
+obj\Debug\WinServerSide.exe
+obj\Debug\WinServerSide.pdb

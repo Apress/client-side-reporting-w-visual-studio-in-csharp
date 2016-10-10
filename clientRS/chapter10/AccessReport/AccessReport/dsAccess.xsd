@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAccess" targetNamespace="http://tempuri.org/dsAccess.xsd" xmlns:mstns="http://tempuri.org/dsAccess.xsd" xmlns="http://tempuri.org/dsAccess.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAccess" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAccess" msprop:Generator_DataSetName="dsAccess">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtAccess" msprop:Generator_UserTableName="dtAccess" msprop:Generator_RowDeletedName="dtAccessRowDeleted" msprop:Generator_TableClassName="dtAccessDataTable" msprop:Generator_RowChangedName="dtAccessRowChanged" msprop:Generator_RowClassName="dtAccessRow" msprop:Generator_RowChangingName="dtAccessRowChanging" msprop:Generator_RowEvArgName="dtAccessRowChangeEvent" msprop:Generator_RowEvHandlerName="dtAccessRowChangeEventHandler" msprop:Generator_TablePropName="dtAccess" msprop:Generator_TableVarName="tabledtAccess" msprop:Generator_RowDeletingName="dtAccessRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProductName" msprop:Generator_UserColumnName="ProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CategoryName" msprop:Generator_UserColumnName="CategoryName" msprop:Generator_ColumnPropNameInRow="CategoryName" msprop:Generator_ColumnVarNameInTable="columnCategoryName" msprop:Generator_ColumnPropNameInTable="CategoryNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="QuantityPerUnit" msprop:Generator_UserColumnName="QuantityPerUnit" msprop:Generator_ColumnPropNameInRow="QuantityPerUnit" msprop:Generator_ColumnVarNameInTable="columnQuantityPerUnit" msprop:Generator_ColumnPropNameInTable="QuantityPerUnitColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UnitsInStock" msprop:Generator_UserColumnName="UnitsInStock" msprop:Generator_ColumnPropNameInRow="UnitsInStock" msprop:Generator_ColumnVarNameInTable="columnUnitsInStock" msprop:Generator_ColumnPropNameInTable="UnitsInStockColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

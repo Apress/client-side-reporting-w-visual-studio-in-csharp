@@ -1,0 +1,11 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MyDashboard.rptDashboard.rdlc
+obj\Debug\MyDashboard.Form1.resources
+obj\Debug\MyDashboard.Properties.Resources.resources
+obj\Debug\MyDashboard.csproj.GenerateResource.Cache
+obj\Debug\RdlCompile.cache
+obj\Debug\RdlCompile.compiled
+bin\Debug\MyDashboard.exe
+bin\Debug\MyDashboard.pdb
+obj\Debug\MyDashboard.exe
+obj\Debug\MyDashboard.pdb

@@ -1,0 +1,12 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Complaint.rptComplaint.rdlc
+obj\Debug\Complaint.ProjectInstaller.resources
+obj\Debug\Complaint.Service1.resources
+obj\Debug\Complaint.csproj.GenerateResource.Cache
+obj\Debug\RdlCompile.cache
+obj\Debug\RdlCompile.compiled
+bin\Debug\Complaint.exe.config
+bin\Debug\Complaint.exe
+bin\Debug\Complaint.pdb
+obj\Debug\Complaint.exe
+obj\Debug\Complaint.pdb

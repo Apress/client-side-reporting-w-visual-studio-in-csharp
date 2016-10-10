@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <ConnectionProperties>
+        <ConnectString />
+        <DataProvider>SQL</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>bdd59b10-d652-4dc3-905a-d4b2183b1db4</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <BottomMargin>1in</BottomMargin>
+  <PageWidth>11in</PageWidth>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:GridSpacing>0.075in</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ColumnSpacing>0.25in</ColumnSpacing>
+    <Columns>3</Columns>
+    <ReportItems>
+      <List Name="list1">
+        <Left>0.075in</Left>
+        <ReportItems>
+          <Textbox Name="textbox4">
+            <Left>2.1in</Left>
+            <Top>0.075in</Top>
+            <rd:DefaultName>textbox4</rd:DefaultName>
+            <ZIndex>1</ZIndex>
+            <Width>0.9in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=Fields!PostalCode.Value</Value>
+          </Textbox>
+          <Textbox Name="CustomerName">
+            <Left>0.075in</Left>
+            <Top>0.075in</Top>
+            <rd:DefaultName>CustomerName</rd:DefaultName>
+            <Width>1.95in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=Fields!CustomerName.Value</Value>
+          </Textbox>
+        </ReportItems>
+        <DataSetName>dsAddressList_dtAddressList</DataSetName>
+        <Top>0.075in</Top>
+        <Width>3.075in</Width>
+        <Height>0.375in</Height>
+      </List>
+    </ReportItems>
+    <Height>0.525in</Height>
+  </Body>
+  <rd:ReportID>c999908e-f207-4878-bd69-c2199586578c</rd:ReportID>
+  <DataSets>
+    <DataSet Name="dsAddressList_dtAddressList">
+      <rd:DataSetInfo>
+        <rd:DataSetName>dsAddressList</rd:DataSetName>
+        <rd:TableName>dtAddressList</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText />
+        <DataSourceName>DummyDataSource</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="CustomerName">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>CustomerName</DataField>
+        </Field>
+        <Field Name="AddressLine">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>AddressLine</DataField>
+        </Field>
+        <Field Name="City">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>City</DataField>
+        </Field>
+        <Field Name="StateProvince">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>StateProvince</DataField>
+        </Field>
+        <Field Name="PostalCode">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>PostalCode</DataField>
+        </Field>
+        <Field Name="Country">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Country</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Author>Asif Sayed</Author>
+  <Code />
+  <Width>3.25in</Width>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <Description>Address List Report</Description>
+  <Language>en-US</Language>
+  <TopMargin>1in</TopMargin>
+  <PageHeight>8.5in</PageHeight>
+</Report>

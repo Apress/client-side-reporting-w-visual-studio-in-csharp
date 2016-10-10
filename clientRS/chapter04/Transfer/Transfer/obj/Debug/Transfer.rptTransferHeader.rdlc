@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <ConnectionProperties>
+        <ConnectString />
+        <DataProvider>SQL</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>c485cf0a-e674-4c31-aa87-dea5aff2c7e9</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <BottomMargin>1in</BottomMargin>
+  <RightMargin>0.5in</RightMargin>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:GridSpacing>0.075in</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ReportItems>
+      <List Name="list1">
+        <Left>0.15in</Left>
+        <ReportItems>
+          <Subreport Name="subreport1">
+            <Left>0.075in</Left>
+            <Parameters>
+              <Parameter Name="parTransferID">
+                <Value>=Fields!TransferID.Value</Value>
+              </Parameter>
+            </Parameters>
+            <Top>0.45in</Top>
+            <ZIndex>3</ZIndex>
+            <Width>6.525in</Width>
+            <ReportName>rptTransferDetails</ReportName>
+            <Height>1.3in</Height>
+          </Subreport>
+          <Textbox Name="textbox5">
+            <Left>4.425in</Left>
+            <Top>0.075in</Top>
+            <rd:DefaultName>textbox5</rd:DefaultName>
+            <ZIndex>2</ZIndex>
+            <Width>2in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>= "Branch From - To: " &amp; Fields!FromBranch.Value &amp; " - " &amp; Fields!ToBranch.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox4">
+            <Left>2.25in</Left>
+            <Top>0.075in</Top>
+            <rd:DefaultName>textbox4</rd:DefaultName>
+            <ZIndex>1</ZIndex>
+            <Width>2in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>= "Date: " &amp; Fields!DateOfTransfer.Value.ToString()</Value>
+          </Textbox>
+          <Textbox Name="TransferID">
+            <Left>0.075in</Left>
+            <Top>0.075in</Top>
+            <rd:DefaultName>TransferID</rd:DefaultName>
+            <Width>2in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>= "ID: " &amp; Fields!TransferID.Value</Value>
+          </Textbox>
+        </ReportItems>
+        <DataSetName>dsTransfer_dtTransferHeader</DataSetName>
+        <Top>0.075in</Top>
+        <Width>6.675in</Width>
+        <Height>1.8in</Height>
+      </List>
+    </ReportItems>
+    <Height>2in</Height>
+  </Body>
+  <PageHeader>
+    <ReportItems>
+      <Line Name="line1">
+        <Left>0.15in</Left>
+        <Top>0.9in</Top>
+        <ZIndex>2</ZIndex>
+        <Width>6.675in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>2pt</Default>
+          </BorderWidth>
+        </Style>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox2">
+        <Left>0.15in</Left>
+        <Top>0.525in</Top>
+        <rd:DefaultName>textbox2</rd:DefaultName>
+        <ZIndex>1</ZIndex>
+        <Width>3.9in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>="Page :" &amp; Globals!PageNumber &amp; " of " &amp; Globals!TotalPages</Value>
+      </Textbox>
+      <Textbox Name="textbox1">
+        <Left>0.15in</Left>
+        <Top>0.15in</Top>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Width>3.9in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontWeight>700</FontWeight>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>Stock Inventory Transfer Report</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>1in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+  </PageHeader>
+  <rd:ReportID>bf884cf4-e1a5-4c2a-a206-1ff33ea77a4d</rd:ReportID>
+  <LeftMargin>0.5in</LeftMargin>
+  <DataSets>
+    <DataSet Name="dsTransfer_dtTransferHeader">
+      <rd:DataSetInfo>
+        <rd:DataSetName>dsTransfer</rd:DataSetName>
+        <rd:TableName>dtTransferHeader</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText />
+        <DataSourceName>DummyDataSource</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="TransferID">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>TransferID</DataField>
+        </Field>
+        <Field Name="DateOfTransfer">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>DateOfTransfer</DataField>
+        </Field>
+        <Field Name="FromBranch">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>FromBranch</DataField>
+        </Field>
+        <Field Name="ToBranch">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ToBranch</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>7in</Width>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <Language>en-US</Language>
+  <TopMargin>1in</TopMargin>
+</Report>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsProductDrilldown" targetNamespace="http://tempuri.org/dsProductDrilldown.xsd" xmlns:mstns="http://tempuri.org/dsProductDrilldown.xsd" xmlns="http://tempuri.org/dsProductDrilldown.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsProductDrilldown" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsProductDrilldown" msprop:Generator_DataSetName="dsProductDrilldown">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtProductDrilldown" msprop:Generator_UserTableName="dtProductDrilldown" msprop:Generator_RowDeletedName="dtProductDrilldownRowDeleted" msprop:Generator_TableClassName="dtProductDrilldownDataTable" msprop:Generator_RowChangedName="dtProductDrilldownRowChanged" msprop:Generator_RowClassName="dtProductDrilldownRow" msprop:Generator_RowChangingName="dtProductDrilldownRowChanging" msprop:Generator_RowEvArgName="dtProductDrilldownRowChangeEvent" msprop:Generator_RowEvHandlerName="dtProductDrilldownRowChangeEventHandler" msprop:Generator_TablePropName="dtProductDrilldown" msprop:Generator_TableVarName="tabledtProductDrilldown" msprop:Generator_RowDeletingName="dtProductDrilldownRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProductNumber" msprop:Generator_UserColumnName="ProductNumber" msprop:Generator_ColumnPropNameInRow="ProductNumber" msprop:Generator_ColumnVarNameInTable="columnProductNumber" msprop:Generator_ColumnPropNameInTable="ProductNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_UserColumnName="ProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CategoryName" msprop:Generator_UserColumnName="CategoryName" msprop:Generator_ColumnPropNameInRow="CategoryName" msprop:Generator_ColumnVarNameInTable="columnCategoryName" msprop:Generator_ColumnPropNameInTable="CategoryNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SubCategoryName" msprop:Generator_UserColumnName="SubCategoryName" msprop:Generator_ColumnPropNameInRow="SubCategoryName" msprop:Generator_ColumnVarNameInTable="columnSubCategoryName" msprop:Generator_ColumnPropNameInTable="SubCategoryNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ListPrice" msprop:Generator_UserColumnName="ListPrice" msprop:Generator_ColumnPropNameInRow="ListPrice" msprop:Generator_ColumnVarNameInTable="columnListPrice" msprop:Generator_ColumnPropNameInTable="ListPriceColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

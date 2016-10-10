@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <ConnectionProperties>
+        <ConnectString />
+        <DataProvider>SQL</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>986f1167-4848-44b6-81b6-fcd42166444d</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <PageWidth>5in</PageWidth>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:GridSpacing>0.075in</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ReportItems>
+      <Textbox Name="textbox1">
+        <Left>0.15in</Left>
+        <Top>2.25in</Top>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <ZIndex>2</ZIndex>
+        <Width>2.25in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>News feed from Yahoo!</Value>
+      </Textbox>
+      <Rectangle Name="rectangle1">
+        <Left>0.125in</Left>
+        <ReportItems>
+          <Image Name="image1">
+            <Sizing>Fit</Sizing>
+            <Left>0.125in</Left>
+            <MIMEType>image/jpeg</MIMEType>
+            <Top>0.125in</Top>
+            <Width>5in</Width>
+            <Source>External</Source>
+            <Style />
+            <Height>1.75in</Height>
+            <Value>file:C:\Apress\chapter13\MyDashboard\MyDashboard\dashboard.jpg</Value>
+          </Image>
+        </ReportItems>
+        <Top>0.125in</Top>
+        <ZIndex>1</ZIndex>
+        <Width>5.25in</Width>
+        <Height>2in</Height>
+      </Rectangle>
+      <List Name="list1">
+        <Left>0.15in</Left>
+        <ReportItems>
+          <Textbox Name="NewsTitle">
+            <Left>0.075in</Left>
+            <Top>0.075in</Top>
+            <rd:DefaultName>NewsTitle</rd:DefaultName>
+            <Action>
+              <Hyperlink>=Fields!NewsLink.Value</Hyperlink>
+            </Action>
+            <Width>3.075in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Color>Blue</Color>
+              <TextDecoration>Underline</TextDecoration>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=Fields!NewsTitle.Value</Value>
+          </Textbox>
+        </ReportItems>
+        <DataSetName>dsDashboard_dtDashboard</DataSetName>
+        <Top>2.55in</Top>
+        <Width>3.25in</Width>
+        <Height>0.375in</Height>
+      </List>
+    </ReportItems>
+    <Height>4.05in</Height>
+  </Body>
+  <rd:ReportID>c788cd0f-e709-452e-bb91-16fad42b50bc</rd:ReportID>
+  <DataSets>
+    <DataSet Name="dsDashboard_dtDashboard">
+      <rd:DataSetInfo>
+        <rd:DataSetName>dsDashboard</rd:DataSetName>
+        <rd:TableName>dtDashboard</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText />
+        <DataSourceName>DummyDataSource</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="NewsTitle">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>NewsTitle</DataField>
+        </Field>
+        <Field Name="NewsLink">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>NewsLink</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>5.5in</Width>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <Language>en-US</Language>
+  <PageHeight>4in</PageHeight>
+</Report>

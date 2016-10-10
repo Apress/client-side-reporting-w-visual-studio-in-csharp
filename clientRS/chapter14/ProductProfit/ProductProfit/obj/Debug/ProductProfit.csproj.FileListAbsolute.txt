@@ -1,0 +1,8 @@
+C:\Apress\Chapter14\ProductProfit\ProductProfit\obj\Debug\ResolveAssemblyReference.cache
+C:\Apress\Chapter14\ProductProfit\ProductProfit\obj\Debug\ProductProfit.Form1.resources
+C:\Apress\Chapter14\ProductProfit\ProductProfit\obj\Debug\ProductProfit.Properties.Resources.resources
+C:\Apress\Chapter14\ProductProfit\ProductProfit\obj\Debug\ProductProfit.csproj.GenerateResource.Cache
+C:\Apress\Chapter14\ProductProfit\ProductProfit\bin\Debug\ProductProfit.exe
+C:\Apress\Chapter14\ProductProfit\ProductProfit\bin\Debug\ProductProfit.pdb
+C:\Apress\Chapter14\ProductProfit\ProductProfit\obj\Debug\ProductProfit.exe
+C:\Apress\Chapter14\ProductProfit\ProductProfit\obj\Debug\ProductProfit.pdb

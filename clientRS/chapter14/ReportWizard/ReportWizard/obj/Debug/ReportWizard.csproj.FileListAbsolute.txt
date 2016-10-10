@@ -1,0 +1,9 @@
+C:\Apress\Chapter14\ReportWizard\ReportWizard\bin\Debug\ReportWizard.exe.config
+C:\Apress\Chapter14\ReportWizard\ReportWizard\bin\Debug\ReportWizard.exe
+C:\Apress\Chapter14\ReportWizard\ReportWizard\bin\Debug\ReportWizard.pdb
+C:\Apress\Chapter14\ReportWizard\ReportWizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Apress\Chapter14\ReportWizard\ReportWizard\obj\Debug\ReportWizard.ReportsForm.resources
+C:\Apress\Chapter14\ReportWizard\ReportWizard\obj\Debug\ReportWizard.Properties.Resources.resources
+C:\Apress\Chapter14\ReportWizard\ReportWizard\obj\Debug\ReportWizard.csproj.GenerateResource.Cache
+C:\Apress\Chapter14\ReportWizard\ReportWizard\obj\Debug\ReportWizard.exe
+C:\Apress\Chapter14\ReportWizard\ReportWizard\obj\Debug\ReportWizard.pdb

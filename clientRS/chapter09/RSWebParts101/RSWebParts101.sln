@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\Apress\RSWebParts101\", "..\..\..\..\..\..\Apress\RSWebParts101", "{CBDB1B69-DD26-47BB-83FF-5BC29A21565A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/RSWebParts101"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Apress\RSWebParts101\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\RSWebParts101\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/RSWebParts101"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Apress\RSWebParts101\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\RSWebParts101\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1420"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBDB1B69-DD26-47BB-83FF-5BC29A21565A}.Debug|.NET.ActiveCfg = Debug|.NET
+		{CBDB1B69-DD26-47BB-83FF-5BC29A21565A}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

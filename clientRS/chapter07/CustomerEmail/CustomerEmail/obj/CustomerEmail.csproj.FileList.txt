@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CustomerEmail.rptCustomerEmail.rdlc
+obj\Debug\RdlCompile.cache
+obj\Debug\RdlCompile.compiled
+bin\Debug\CustomerEmail.exe
+bin\Debug\CustomerEmail.pdb
+obj\Debug\CustomerEmail.exe
+obj\Debug\CustomerEmail.pdb

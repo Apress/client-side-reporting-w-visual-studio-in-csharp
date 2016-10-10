@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <ConnectionProperties>
+        <ConnectString />
+        <DataProvider>SQL</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>3f52f7d5-e3ba-4d8c-ad51-25e83da2ccb4</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <BottomMargin>1in</BottomMargin>
+  <RightMargin>1in</RightMargin>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:GridSpacing>0.075in</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ReportItems>
+      <List Name="list1">
+        <Left>0.15in</Left>
+        <ReportItems>
+          <Line Name="line1">
+            <Left>0.15in</Left>
+            <Top>0.375in</Top>
+            <ZIndex>14</ZIndex>
+            <Width>5.75in</Width>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+            </Style>
+            <Height>0in</Height>
+          </Line>
+          <Textbox Name="textbox7">
+            <Left>0.125in</Left>
+            <Top>1.95in</Top>
+            <ZIndex>13</ZIndex>
+            <Width>1.25in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Description:</Value>
+          </Textbox>
+          <Textbox Name="textbox6">
+            <Left>0.125in</Left>
+            <Top>1.65in</Top>
+            <ZIndex>12</ZIndex>
+            <Width>1.25in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Publish Date:</Value>
+          </Textbox>
+          <Textbox Name="textbox5">
+            <Left>0.125in</Left>
+            <Top>1.35in</Top>
+            <ZIndex>11</ZIndex>
+            <Width>1.25in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Price:</Value>
+          </Textbox>
+          <Textbox Name="textbox4">
+            <Left>0.125in</Left>
+            <Top>1.05in</Top>
+            <ZIndex>10</ZIndex>
+            <Width>1.25in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Genre:</Value>
+          </Textbox>
+          <Textbox Name="textbox3">
+            <Left>0.125in</Left>
+            <Top>0.75in</Top>
+            <ZIndex>9</ZIndex>
+            <Width>1.25in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Title:</Value>
+          </Textbox>
+          <Textbox Name="textbox2">
+            <Left>0.125in</Left>
+            <Top>0.45in</Top>
+            <ZIndex>8</ZIndex>
+            <Width>1.25in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Author:</Value>
+          </Textbox>
+          <Textbox Name="textbox1">
+            <Left>0.125in</Left>
+            <Top>0.075in</Top>
+            <rd:DefaultName>textbox1</rd:DefaultName>
+            <ZIndex>7</ZIndex>
+            <Width>1.25in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <FontWeight>700</FontWeight>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>Book ID:</Value>
+          </Textbox>
+          <Textbox Name="description_1">
+            <Left>1.5in</Left>
+            <Top>1.95in</Top>
+            <rd:DefaultName>description_1</rd:DefaultName>
+            <ZIndex>6</ZIndex>
+            <Width>4.375in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=Fields!description.Value</Value>
+          </Textbox>
+          <Textbox Name="publish_date">
+            <Left>1.5in</Left>
+            <Top>1.65in</Top>
+            <rd:DefaultName>publish_date</rd:DefaultName>
+            <ZIndex>5</ZIndex>
+            <Width>4.375in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Format>d</Format>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=Fields!publish_date.Value</Value>
+          </Textbox>
+          <Textbox Name="price_1">
+            <Left>1.5in</Left>
+            <Top>1.35in</Top>
+            <rd:DefaultName>price_1</rd:DefaultName>
+            <ZIndex>4</ZIndex>
+            <Width>4.375in</Width>
+            <Style>
+              <TextAlign>Left</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=Fields!price.Value</Value>
+          </Textbox>
+          <Textbox Name="genre_1">
+            <Left>1.5in</Left>
+            <Top>1.05in</Top>
+            <rd:DefaultName>genre_1</rd:DefaultName>
+            <ZIndex>3</ZIndex>
+            <Width>4.375in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=Fields!genre.Value</Value>
+          </Textbox>
+          <Textbox Name="title_1">
+            <Left>1.5in</Left>
+            <Top>0.75in</Top>
+            <rd:DefaultName>title_1</rd:DefaultName>
+            <ZIndex>2</ZIndex>
+            <Width>4.375in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=Fields!title.Value</Value>
+          </Textbox>
+          <Textbox Name="author_1">
+            <Left>1.5in</Left>
+            <Top>0.45in</Top>
+            <rd:DefaultName>author_1</rd:DefaultName>
+            <ZIndex>1</ZIndex>
+            <Width>4.375in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=Fields!author.Value</Value>
+          </Textbox>
+          <Textbox Name="id">
+            <Left>1.5in</Left>
+            <Top>0.075in</Top>
+            <rd:DefaultName>id</rd:DefaultName>
+            <Width>4.375in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingBottom>2pt</PaddingBottom>
+              <FontWeight>700</FontWeight>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>=Fields!id.Value</Value>
+          </Textbox>
+        </ReportItems>
+        <DataSetName>dsXML_dtXML</DataSetName>
+        <Width>6.675in</Width>
+        <Height>2.25in</Height>
+      </List>
+    </ReportItems>
+    <Height>2.325in</Height>
+  </Body>
+  <PageHeader>
+    <ReportItems>
+      <Image Name="image1">
+        <Sizing>FitProportional</Sizing>
+        <Left>5.625in</Left>
+        <Top>0.15in</Top>
+        <ZIndex>2</ZIndex>
+        <Width>1.2in</Width>
+        <Source>External</Source>
+        <Style />
+        <Height>0.75in</Height>
+        <Value>file:C:\Apress\chapter10\XMLReport\books.jpg</Value>
+      </Image>
+      <Textbox Name="txtPageCount">
+        <Left>0.15in</Left>
+        <Top>0.675in</Top>
+        <ZIndex>1</ZIndex>
+        <Width>2.7in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>="Page :" &amp; Globals!PageNumber &amp; " of " &amp; Globals!TotalPages</Value>
+      </Textbox>
+      <Textbox Name="txtReportTitle">
+        <Left>0.15in</Left>
+        <Top>0.15in</Top>
+        <Width>2.7in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>Times New Roman</FontFamily>
+          <FontWeight>700</FontWeight>
+          <FontSize>14pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <FontStyle>Italic</FontStyle>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.325in</Height>
+        <Value>Books Catalog</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>1in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+  </PageHeader>
+  <rd:ReportID>c8de5131-bea0-4e6b-b952-5166c534bb79</rd:ReportID>
+  <LeftMargin>1in</LeftMargin>
+  <DataSets>
+    <DataSet Name="dsXML_dtXML">
+      <rd:DataSetInfo>
+        <rd:DataSetName>dsXML</rd:DataSetName>
+        <rd:TableName>dtXML</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText />
+        <DataSourceName>DummyDataSource</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="id">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>id</DataField>
+        </Field>
+        <Field Name="author">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>author</DataField>
+        </Field>
+        <Field Name="title">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>title</DataField>
+        </Field>
+        <Field Name="genre">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>genre</DataField>
+        </Field>
+        <Field Name="price">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>price</DataField>
+        </Field>
+        <Field Name="publish_date">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>publish_date</DataField>
+        </Field>
+        <Field Name="description">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>description</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>6.975in</Width>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <Language>en-US</Language>
+  <TopMargin>1in</TopMargin>
+</Report>

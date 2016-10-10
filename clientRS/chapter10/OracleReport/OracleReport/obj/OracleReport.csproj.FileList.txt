@@ -1,0 +1,11 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\OracleReport.rptOracle.rdlc
+obj\Debug\OracleReport.Form1.resources
+obj\Debug\OracleReport.Properties.Resources.resources
+obj\Debug\OracleReport.csproj.GenerateResource.Cache
+obj\Debug\RdlCompile.cache
+obj\Debug\RdlCompile.compiled
+bin\Debug\OracleReport.exe
+bin\Debug\OracleReport.pdb
+obj\Debug\OracleReport.exe
+obj\Debug\OracleReport.pdb
